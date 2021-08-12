@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Text, Vibration, Platform } from 'react-native';
-
 import { ProgressBar } from 'react-native-paper';
 import { useKeepAwake } from 'expo-keep-awake';
 
+//COMPONENTS
 import { Countdown } from '../../components/Countdown';
 import { RoundButton } from '../../components/RoundButton';
+
+//TIMER
 import { Timing } from './Timing';
 
+//UTILS
 import { colors } from '../../utils/colors';
 import { spacing } from '../../utils/sizes';
 

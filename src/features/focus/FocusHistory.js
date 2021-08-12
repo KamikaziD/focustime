@@ -1,9 +1,13 @@
 import React from 'react';
 import { Text, View, StyleSheet, FlatList, SafeAreaView } from 'react-native';
 
+//COMPONENTS
+import { RoundButton } from '../../components/RoundButton';
+
+//UTILS
 import { fontSizes, spacing } from '../../utils/sizes';
 import { colors } from '../../utils/colors';
-import { RoundButton } from '../../components/RoundButton';
+
 
 const HistoryItem = ({ item, index }) => {
   return <Text style={styles.historyItem(item.status)}>{item.subject}</Text>;

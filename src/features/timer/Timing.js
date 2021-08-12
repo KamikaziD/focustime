@@ -1,5 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
+
+//COMPONENTS
 import { RoundButton } from "../../components/RoundButton";
 
 export const Timing = ({ onChangeTime }) => {

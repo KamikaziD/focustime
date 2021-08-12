@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
+
+//COMPONENTS
 import { RoundButton } from '../../components/RoundButton';
+
+//UTILS
 import { fontSizes, spacing } from '../../utils/sizes';
 import { colors } from '../../utils/colors';
 
